@@ -5,7 +5,7 @@ $numbers = [
 ];
 
 foreach ($numbers as $numberCollection) {
-    asort($numberCollection);
+    sort($numberCollection);
 
     print_r(implode(', ', $numberCollection) . PHP_EOL);
 }
